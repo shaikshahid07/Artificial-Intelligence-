@@ -1,0 +1,5 @@
+?- suggest_diet(diabetes, Recommendation).
+For diabetes disease: Limit sugar intake and consume complex carbohydrates.
+
+?- suggest_diet(cholesterol, Recommendation).
+For cholesterol disease: Consume foods low in saturated and trans fats.

@@ -1,0 +1,19 @@
+```
+?- father(john, Child).
+Child = mike.
+
+?- mother(sara, Child).
+Child = emma.
+
+?- child(david, Parent).
+Parent = mike.
+
+?- sibling(anna, Sibling).
+Sibling = david ;
+Sibling = anna.
+
+?- brother(Brother, emma).
+Brother = david.
+
+?- sister(Sister, mike).
+Sister = sara.

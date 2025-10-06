@@ -1,0 +1,31 @@
+Step 1: Initialize
+ Create an 8x8 chessboard (matrix)
+ Set all positions to "empty" (0)
+
+
+Step 2: Place Queens
+
+Start from row 1
+ For each row:
+    1. Try to place a queen in each column
+    2. Check if the queen is safe (no other queen attacks it)
+    3. If safe, move to the next row
+    4. If not safe, try the next column
+
+
+Safety Check:
+
+Check rows, columns, and diagonals for other queens
+If another queen is found, return "not safe"
+
+
+Backtracking:
+
+If no safe position is found in a row, go back to the previous row
+Remove the queen from the previous row
+Try the next column in the previous row
+
+Solution Found:
+
+If 8 queens are placed safely, display the solution
+

@@ -1,0 +1,8 @@
+Move disk 1 from Source to Destination
+Move disk 2 from Source to Auxiliary
+Move disk 1 from Destination to Auxiliary
+Move disk 3 from Source to Destination
+Move disk 1 from Auxiliary to Source
+Move disk 2 from Auxiliary to Destination
+Move disk 1 from Source to Destination
+```

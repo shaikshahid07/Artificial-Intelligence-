@@ -1,0 +1,10 @@
+Initialize the game board as a 3x3 grid filled with empty spaces.
+Loop until there is a winner or the board is full:
+Take input for the current player’s move (row, column).
+Check if the move is valid (i.e., if the chosen cell is empty).
+Update the board with the current player's mark (X or O).
+Check if the current player has won by checking rows, columns, and diagonals.
+If a win is detected, declare the current player as the winner.
+If no win and the board is full, declare a draw.
+Switch turns between the players.
+End the game when there's a winner or a draw.

@@ -1,0 +1,5 @@
+ALGORITHM:
+1. Define the initial state of the monkey, banana, and box positions.
+2. Define predicates for actions like `move`, `climb`, `push`, and `grasp` which change the state of the monkey and the box.
+3. Create a predicate `solve` which specifies a sequence of actions to move the monkey to the banana and then to the box with the banana.
+

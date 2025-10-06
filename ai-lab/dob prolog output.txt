@@ -1,0 +1,8 @@
+?- get_dob(john, DOB).
+DOB = '1990-05-15'.
+
+?- get_dob(susan, DOB).
+DOB = '1985-11-30'.
+
+?- get_dob(alex, DOB).
+false.

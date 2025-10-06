@@ -1,0 +1,4 @@
+Given a list of cities and the distances between each pair of cities, find the shortest possible route that:
+Starts from a designated city.
+Visits each city exactly once.
+Returns to the starting city.

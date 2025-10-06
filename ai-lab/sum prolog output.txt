@@ -1,0 +1,8 @@
+?- sum(5, Result).
+Result = 15.
+
+?- sum(10, Result).
+Result = 55.
+
+?- sum(1, Result).
+Result = 1.

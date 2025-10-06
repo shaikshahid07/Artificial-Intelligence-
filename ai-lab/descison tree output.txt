@@ -1,0 +1,5 @@
+            [Feature A]
+             /      \
+        [Value 1]  [Value 2]
+         /              \
+   [Class X]       [Class Y]

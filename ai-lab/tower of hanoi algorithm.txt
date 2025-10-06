@@ -1,0 +1,7 @@
+
+ALGORITHM:
+1. The base case for solving the Towers of Hanoi with one disk is to directly move the disk from the source peg to the destination peg.
+2. For `N` disks, we can recursively solve it by following these steps:
+   - Move `N-1` disks from the source peg to the auxiliary peg, using the destination peg as the auxiliary.
+   - Move the `N`-th disk from the source peg to the destination peg.
+   - Move the `N-1` disks from the auxiliary peg to the destination peg, using the source peg as the auxiliary.

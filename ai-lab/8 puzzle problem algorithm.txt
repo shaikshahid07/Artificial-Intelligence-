@@ -1,0 +1,37 @@
+8-Puzzle Algorithm
+
+
+Step 1: Define the Problem
+
+- Represent the puzzle as a 3x3 matrix
+- Define the goal state (e.g., [1, 2, 3, 4, 5, 6, 7, 8, 0])
+- Define the initial state (e.g., [5, 2, 3, 1, 6, 4, 7, 8, 0])
+
+
+Step 2: Choose a Heuristic
+
+- Manhattan Distance (MD): sum of horizontal and vertical distances between tiles and their goal positions
+- Misplaced Tiles (MT): number of tiles not in their goal positions
+
+
+Step 3: Initialize
+
+- Create a priority queue (e.g., using A* algorithm)
+- Add the initial state to the queue with its heuristic value
+
+
+Step 4: Explore States
+
+- While queue is not empty:
+    1. Dequeue the state with the lowest heuristic value
+    2. If the state is the goal state, return the solution path
+    3. Generate neighboring states by moving the blank tile (0) in all possible directions (up, down, left, right)
+    4. Calculate the heuristic value for each neighbor
+    5. Add neighbors to the queue
+
+
+Step 5: Solution
+
+- Return the solution path from the initial state to the goal state
+
+

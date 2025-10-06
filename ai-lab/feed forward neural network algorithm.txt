@@ -1,0 +1,24 @@
+A Feedforward Neural Network (FNN) is the simplest type of artificial neural network where the information moves in one direction—from the input layer, through the hidden layers (if any), to the output layer. There are no cycles or loops in the network, unlike recurrent neural networks. It’s widely used for tasks like classification and regression.
+
+Key Components:
+Input Layer: The input layer consists of nodes representing the input features (e.g., pixels in an image or attributes in a dataset).
+Hidden Layers: Each hidden layer is made up of neurons (nodes), where each neuron computes a weighted sum of its inputs, applies an activation function, and passes the result to the next layer.
+Output Layer: The final layer that produces the network's prediction. For classification tasks, this could be one node per class.
+Steps in a Feedforward Neural Network Algorithm:
+Initialize Weights and Biases:
+
+Each connection between neurons has a weight, and each neuron has a bias. Initialize these with small random values.
+Forward Pass:
+
+Input Layer: Pass the input data to the network.
+Weighted Sum Calculation: For each neuron in the hidden layer, calculate the weighted sum of inputs plus bias:
+where 
+𝑓
+f is the activation function.
+Repeat the weighted sum and activation process for all hidden layers and finally the output layer.
+Loss Calculation:
+
+Compare the network’s output to the true target value using a loss function (e.g., Mean Squared Error for regression or Cross-Entropy for classification). This quantifies how wrong the network's prediction is.
+Backpropagation:
+
+Compute the gradient of the loss function with respect to each weight and bias using the chain rule.

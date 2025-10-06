@@ -1,0 +1,43 @@
+Step 1: Initialize
+
+- Set jug1 capacity (J1) and jug2 capacity (J2)
+- Set target amount (T)
+- Create an empty visited set (V) to track states
+- Create a queue (Q) with initial state (0, 0)
+
+
+Step 2: Explore States
+
+- While Q is not empty:
+    1. Dequeue current state (J1 amount, J2 amount)
+    2. Print current state
+    3. Add current state to V
+    4. Check if target reached:
+        - If J1 or J2 equals T, solution found! Exit.
+    5. Generate next states:
+        - Fill J1
+        - Fill J2
+        - Empty J1
+        - Empty J2
+        - Pour J1 to J2
+        - Pour J2 to J1
+    6. Add next states to Q if not visited before
+
+
+Pouring Logic
+
+- Pour J1 to J2:
+    1. Calculate pour amount = min(J1 amount, J2 capacity - J2 amount)
+    2. Update J1 amount = J1 amount - pour amount
+    3. Update J2 amount = J2 amount + pour amount
+- Pour J2 to J1:
+    1. Calculate pour amount = min(J2 amount, J1 capacity - J1 amount)
+    2. Update J1 amount = J1 amount + pour amount
+    3. Update J2 amount = J2 amount - pour amount
+
+
+Step 3: Solution or Failure
+
+- If Q is empty and no solution found, print "No solution found"
+This algorithm uses Breadth-First Search (BFS) to explore all possible states of the water jugs.
+

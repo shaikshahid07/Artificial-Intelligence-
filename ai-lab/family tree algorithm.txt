@@ -1,0 +1,4 @@
+ALGORITHM:
+1. Define facts for individuals in the family with their relationships.
+2. Define rules for different relationships like parent, child, and sibling.
+3. Utilize the defined facts and rules to answer queries about the family relationships

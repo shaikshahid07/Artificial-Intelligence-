@@ -1,0 +1,8 @@
+?- subjects_taught_by_teacher(mary, Subjects).
+Subjects = [math].
+
+?- subjects_taught_by_teacher(david, Subjects).
+Subjects = [english, history].
+
+?- subjects_taught_by_teacher(john, Subjects).
+Subjects = [].

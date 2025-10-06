@@ -1,0 +1,4 @@
+ALGORITHM:
+1. Define the database using Prolog facts for planets. Each fact will have the structure `planet(Name, Type, Distance)` where `Type` could be rocky or gas giant, and `Distance` is the distance of the planet from the sun.
+2. Define predicates to query planets based on different criteria such as type, distance, or name.
+

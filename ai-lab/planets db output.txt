@@ -1,0 +1,13 @@
+?- planets_of_type(rocky, RockyPlanets).
+RockyPlanets = [mercury, venus, earth, mars].
+
+?- planets_within_distance(5, 20, NearbyPlanets).
+NearbyPlanets = [jupiter, saturn, uranus].
+
+?- planet(Name, Type, Distance), Distance > 10.
+Name = uranus,
+Type = gas_giant,
+Distance = 19.22 ;
+Name = neptune,
+Type = gas_giant,
+Distance = 30.05.

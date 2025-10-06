@@ -1,0 +1,11 @@
+
+ALGORITHM:
+STEP1: Initialize: Start at a given position on the grid.
+STEP 2:Check and Clean: If the current cell is dirty, clean it.
+STEP 3:Move Decision: Choose the next cell to move to. Options include:
+Move to the nearest dirty cell.
+STEP 4:Move in a specific pattern (e.g., zig-zag) to ensure coverage.
+STEP 5:Use a combination of both strategies for optimal cleaning.
+STEP 6:Move: Move the vacuum cleaner to the chosen cell.
+STEP 7:Repeat: Go back to step 2 until all cells are clean.
+

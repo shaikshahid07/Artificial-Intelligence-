@@ -1,0 +1,1 @@
+The program will output a list of actions that the monkey needs to perform in order to get the banana and then move the box to the middle position.

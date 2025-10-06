@@ -1,0 +1,4 @@
+ALGORITHM:
+1. Define the database using Prolog facts. Each fact will have the structure `person(Name, DOB)`.
+2. Define a predicate to query the DOB of a specific individual. This predicate will search for a person's DOB in the database based on their name.
+

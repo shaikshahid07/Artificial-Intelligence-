@@ -1,0 +1,9 @@
+Greedy Algorithm for Graph Coloring:
+The Greedy Algorithm assigns colors to the vertices one by one. For each vertex, it selects the smallest available color that hasn’t been assigned to any of its adjacent vertices.
+
+Greedy Algorithm Steps:
+Start with the first vertex and assign it the first color.
+For each subsequent vertex:
+Examine the colors of all adjacent vertices.
+Assign the smallest color that is not being used by any of its neighbors.
+Repeat this process until all vertices are colored.

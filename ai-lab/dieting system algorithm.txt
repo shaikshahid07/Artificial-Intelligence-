@@ -1,0 +1,4 @@
+ALGORITHM:
+1. Define facts for various diseases and their corresponding dietary recommendations.
+2. Create rules that suggest a diet based on the disease.
+3. Utilize the facts and rules to answer queries about diet recommendations for specific diseases

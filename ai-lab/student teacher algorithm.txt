@@ -1,0 +1,4 @@
+ALGORITHM:
+1. Define the database using Prolog facts for students, teachers, and subjects. Each fact will have the structure `entity(Name, Code)`.
+2. Define a predicate to query the subjects taught by a specific teacher. This predicate will search for subjects based on the teacher's name.
+

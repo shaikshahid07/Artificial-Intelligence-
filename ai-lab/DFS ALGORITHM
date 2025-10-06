@@ -1,0 +1,21 @@
+Algorithm: Depth-First Search (DFS)
+Start from a root node (initial node):
+
+Choose the node where the search will begin, called the root node.
+Initialize a stack and visited list:
+
+Create an empty stack (LIFO structure) and add the root node to the stack.
+Create an empty set/list to keep track of visited nodes.
+While the stack is not empty:
+
+Remove the top node from the stack (current node).
+If the node has not been visited:
+Mark it as visited (add it to the visited set/list).
+Process the node (e.g., print or store its value).
+Add all its unvisited neighbors (connected nodes) to the stack.
+Repeat:
+
+Continue this process until the stack becomes empty.
+End:
+
+The DFS is complete when the stack is empty and all reachable nodes from the root have been visited.

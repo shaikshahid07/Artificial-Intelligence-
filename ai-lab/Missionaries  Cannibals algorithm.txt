@@ -1,0 +1,4 @@
+ALGORITHM:
+STEP1: One way to solve the Missionaries and Cannibals problem is to use a variation of the Breadth-First Search (BFS) algorithm.
+ STEP2:The idea is to represent the states of the problem (the number of missionaries and cannibals on each side of the river and the boat's location) as nodes in a graph.
+ STEP3:Then, by systematically exploring the graph using BFS, you can find a valid sequence of moves that solves the problem

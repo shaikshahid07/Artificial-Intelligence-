@@ -1,0 +1,7 @@
+Alpha-Beta pruning is an optimization technique for the minimax algorithm used in decision-making and game theory, commonly applied in two-player games like chess. It reduces the number of nodes evaluated by the minimax algorithm in its search tree, speeding up the process without affecting the final decision.
+
+Here’s a simple explanation of how Alpha-Beta pruning works:
+
+Alpha represents the best already-explored option along the path to the maximizing player (best option for the maximizer).
+Beta represents the best already-explored option along the path to the minimizing player (best option for the minimizer).
+At any point during the exploration, if the current node's value is worse than a previously explored node, the algorithm stops exploring that branch (this is the pruning).
